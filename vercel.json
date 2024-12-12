@@ -1,0 +1,15 @@
+{
+    "builds": [
+      {
+        "src": "package.json",
+        "use": "@vercel/node"
+      }
+    ],
+    "env": {
+      "NODE_OPTIONS": "--openssl-legacy-provider"
+    },
+    "scripts": {
+      "install": "npm install --legacy-peer-deps"
+    }
+  }
+  
